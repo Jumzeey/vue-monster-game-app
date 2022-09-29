@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import "animate.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.btn{
+  background: #E1AA12;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+h1{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+/* nav styles*/
+nav{
+  color: white;
+}
+/*carousel slider styles*/
+
+.carousel-item{
+position: relative;
+width: 1289px;
+height: 120vh;
+top: -86px;
+background-position: center;
+background-size: cover;
+transition: 0.5 ease-in;
+}
+.slide1{
+  background-image:linear-gradient(90deg, rgba(17, 0, 0, 0.7) 23.31%, rgba(17, 0, 0, 0) 96.9%), url('https://ik.imagekit.io/jumzeey/emma-img/PicsArt_10-14-01.09_1_gMqrGFIhk.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+}
+.slide2{
+  background-image:linear-gradient(90deg, rgba(87, 0, 21, 0.7) 23.31%, rgba(17, 0, 0, 0) 96.9%), url('https://ik.imagekit.io/jumzeey/emma-img/emmanuelsconceptz-___B5e2EVsI5VQ___-4_mLK8nxjHT.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+}
+.slide3{
+  background-image:linear-gradient(90deg, rgba(17, 0, 0, 0.7) 23.31%, rgba(17, 0, 0, 0) 96.9%), url('https://ik.imagekit.io/jumzeey/emma-img/400119800774_50672_2Z9CzdwDhX.png');
+ background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+}
+.header-caro{
+  top: 25%;
+  margin: 5rem;
+}
+.header-caro1{
+  top: 30%;
+  margin: 5rem;
+}
+
+/*mini about box*/
+.about-box{
+  position: relative;
+  top: -9em;
+  z-index: 5;
+}
+
+.about-content{
+  background: #BD0C36;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: justified;
+
+}
+.about-content span{
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.about-content a{
+  background: #E1AA12;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.services{
+  width: 100%;
+  padding: auto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.services h1{
+   width: 251px;
+}
+
+
+.item-overlay{
+  background-image: url('https://ik.imagekit.io/jumzeey/emma-img/Rectangle_137.png?updatedAt=1626783563933');
+  position: absolute;
+  height: 20rem;
+  width: 100%;
+  top: 0;
+  opacity: .7;
+}
+.item-text{
+  position: absolute;
+  width: 94px;
+  height: 72px;
+  left: 30%;
+  top: 40%;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+.events{
+  width: 100%;
+  padding: auto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+}
+/*events style*/
+.events h1{
+  width: 251px;
+}
+.event-container img{
+  /* position: relative; */
+  height:25%;
+  width: auto;
+  padding: 0 2rem 0 2rem;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+}
+
+.change{
+  left: 0px;
+  background-size: cover;
+  display: flex;
+  margin-top:100px;
+  background-image: url('https://ik.imagekit.io/jumzeey/emma-img/YOUTUBE_7bTLsskWw.png?updatedAt=1617092809616');
+}
+
+.change img{
+  background: #C4C4C4;
+}
+.gallery{
+  margin: 24px;
+  text-align: center;
+  
+}
+.gallery-info{
+  bottom: 10px;
+}
+.gallery h1{
+  font-size: 40px;
+}
+.gallery-btn button{
+  border: 2px solid #E1AA12;
+  color: #fff;
+  background-color: #E1AA12;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: small;
+}
+/*purified styling*/
+.video-embed{
+  position: relative;
+  width: 80%;
+  height: 70%;
+}
+.video-link-img{
+  max-width: 80%;
+}
+.video-link-img img{
+  width: 100%;
+}
+video {
+  object-fit: cover;
+  width: auto;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.video-info{
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+}
+.video-btn{
+  width: 15rem;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #E1AA12;
+  color: #fff;
+  cursor: pointer;
+}
+.browns-eye{
+  border: 2px solid #000;
+  color: #fff;
+  background-image: url('https://ik.imagekit.io/jumzeey/emma-img/BROWN_EYEZ_PORTFOLIO_J7uy5oNpsy.png?updatedAt=1629199623607');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.browns-btn{
+  width: 10rem;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #E1AA12;
+  color: #000;
+  cursor: pointer;
+}
+form{
+  overflow-x: hidden;
+}
+.input-box{
+  border: 1px solid #BD0C36;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 32rem;
+  max-width: 90%;
+}
+
+::placeholder{
+  padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 1rem;
+}
+footer{
+  background-color: #BD0C36;
+}
+.social > svg{
+  padding: 3px;
+}
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:250px;
+  width:300px;
+}
+.gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+  height:250px;
+  width:300px;
+}
+/*---------------------------------------------------------*/
+/*
+
+          ABOUT STYLING
+
+*/
+/*---------------------------------------------------------*/
+.header-about{
+  background-image: linear-gradient(90deg, rgba(17, 0, 0, 0.7) 23.31%, rgba(17, 0, 0, 0) 96.9%), url('https://ik.imagekit.io/jumzeey/emma-img/400094700159_145975_1_emgilzb7-h.png?updatedAt=1629234136438');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+}
+.header-text{
+  top: 30%;
+  right: 30%;
+  left: 30%;
+  height: 100vh;
+}
+.social-mega{
+  background-color: #BD0C36;
+}
+.text-icons > a{
+  padding: 5px;
+}
+/*---------------------------------------------------------*/
+/*
+
+          EVENT STYLING
+
+*/
+/*---------------------------------------------------------*/
+.header-event{
+  background-image: linear-gradient(90deg, rgba(17, 0, 0, 0.7) 23.31%, rgba(17, 0, 0, 0) 96.9%), url('https://ik.imagekit.io/jumzeey/emma-img/emmanuelsconceptz-___B5dMms3Iiq9___-3_1_8SZlynmRYy.png?updatedAt=1629245501797') ;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+}
+/*---------------------------------------------------------*/
+/*
+
+          SERVICES STYLING
+
+*/
+/*---------------------------------------------------------*/
+.header-services{
+  background-image: linear-gradient(90deg, rgba(17, 0, 0, 0.7) 23.31%, rgba(17, 0, 0, 0) 96.9%), url('https://ik.imagekit.io/jumzeey/emma-img/emmanuelsconceptz-___B5gYerIoWof___-_1_gJZpg0jihk.png?updatedAt=1629246309500') ;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+}
+/*
+
+          TALENTS STYLING
+
+*/
+/*---------------------------------------------------------*/
+.header-talent{
+  background-image: linear-gradient(90deg, rgba(17, 0, 0, 0.7) 23.31%, rgba(17, 0, 0, 0) 96.9%), url('https://ik.imagekit.io/jumzeey/emma-img/WhatsApp_Image_2021-08-20_at_13.16.54_f6GgNiThh.jpeg?updatedAt=1629464483516') ;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 2px;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+}
+.header-artiste{
+  background-image:url('https://ik.imagekit.io/jumzeey/emma-img/Mask_Group__5__HrAqmMwxu.png?updatedAt=1630688193910');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+}
+/*
+
+          BROWNS STYLING
+
+*/
+/*---------------------------------------------------------*/
+.b-social > a{
+  padding: 5px;
+}
+
+/* .tipped{
+  background: #F1EDED;
+
+} */
